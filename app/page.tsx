@@ -83,7 +83,17 @@ export default function Home() {
             <a className="button primary" href="https://rafael-prahastra-portfolio.vercel.app/">Open live website ↗</a>
             <a className="text-link" href="https://github.com/rafaelprahastra/rafael-portfolio" rel="noopener noreferrer">View portfolio source ↗</a>
           </div>
-          <p>Original screenshots or public demos for the other projects are not available here yet. Private application data is not published.</p>
+          <h3>Basic circuit design and simulation</h3>
+          <p>An academic Computational Physics lab comparing current at different resistance values. The supplied report includes a results table and graphs for a 12 V RMS source. This is a real excerpt from my lab submission, not a generated project mockup. The simulation was not rerun for this portfolio.</p>
+          <details className="lab-evidence">
+            <summary>View original lab results ↓</summary>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/projects/circuit-lab.jpg" alt="Original lab report page with resistance and RMS current results, a waveform graph, and a spreadsheet chart" width={918} height={1188} loading="lazy" />
+              <figcaption>Page 2 of my supplied lab report. The identity cover page is not published. My work here is the academic analysis and report; this is not a hosted simulation app.</figcaption>
+            </figure>
+          </details>
+          <p>Original screenshots or public demos for SimbaBlox, Automm Escrow, and Smart Space are not available here yet. Private application data is not published.</p>
         </div>
       </section>
       <section
