@@ -1,0 +1,42 @@
+Rafael Sani Valentino Prahastra
+Computer Science Student | Backend Systems & Cloud Infrastructure
+rafaelprahastra@gmail.com
+https://rafael-prahastra-portfolio.vercel.app
+PROFESSIONAL SUMMARY
+Computer Science student focused on backend systems and cloud infrastructure, with hands-on experience building
+Python applications, transactional SQLite workflows, Discord automation, Linux VPS deployments, and AI-assisted
+development workflows. Seeking an internship or junior software opportunity.
+EDUCATION
+BINUS University
+Computer Science - Current student
+Relevant coursework: Algorithm and Programming, Object-Oriented Programming, Scientific Computing, Computational
+Physics
+TECHNICAL SKILLS
+Backend: Python, async/await, asyncio, discord.py, modular architecture, API integration
+Data & testing: SQLite, transactional workflows, rollback handling, mock-based testing, Pytest
+Infrastructure: Ubuntu Linux, VPS operations, SSH, SCP, systemd, Tailscale
+AI-assisted development: Codex, ChatGPT, Cursor, Trae, repository instructions, scoped agent workflows
+Academic web work: HTML, CSS, JavaScript, React, Tailwind CSS, LocalStorage, heuristic logic
+PROJECTS
+SimbaBlox Marketplace Bot
+Primary developer - Backend & infrastructure | V1 in use; V2 rewrite in progress
+- Developed modular Python and discord.py workflows for marketplace tickets, seller verification, reputation, statistics,
+ and administration.
+- Worked on transactional SQLite accounting paths, duplicate handling, and ticket-state validation; used temporary
+ databases and mocks for isolated testing.
+- Deployed and operated V1 on an Ubuntu VPS using systemd, SSH, and Tailscale; kept the V2 rewrite separate from
+ production data.
+Automm Escrow - AI-Assisted Development Workflow
+Workflow design | Architecture experiment
+- Structured reusable repository instructions and role-specific agent configurations to separate planning, implementation,
+ and review.
+- Used scoped tasks and shared context to support repeatable development, without claiming autonomous financial
+ execution or measured performance gains.
+Human-Centered Smart Space
+Academic prototype development
+- Worked on a React and Tailwind CSS single-page prototype for room-planning recommendations using heuristic rules
+ and LocalStorage.
+- Explored accessibility, privacy, collaboration, and sustainability as design inputs; the recommendation mechanism is
+ rule-based, not trained machine learning.
+CURRENTLY LEARNING
+Docker and Docker Compose, cloud-native systems, computational physics, scientific computing, ML/LLM integration
