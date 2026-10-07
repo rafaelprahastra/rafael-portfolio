@@ -69,6 +69,22 @@ export default function Home() {
             <ProjectCard key={p.slug} project={p} index={i} />
           ))}
         </div>
+        <div className="live-work" id="results">
+          <p className="eyebrow">A project you can try</p>
+          <h3>Personal portfolio website</h3>
+          <p>This website is a working project built with Next.js, React, TypeScript, and Tailwind CSS. It includes project case studies, a downloadable CV, and a public source repository. I used AI-assisted tools to help build it and reviewed the content and changes.</p>
+          <figure>
+            {/* Actual browser capture of the deployed website, not a generated mockup. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/projects/portfolio-live.jpg" alt="Actual screenshot of Rafael's deployed portfolio homepage before the peer-review update" width={1440} height={1000} loading="lazy" />
+            <figcaption>Actual deployed website screenshot, captured before this peer-review update. Other project visuals above are concept illustrations, not product screenshots.</figcaption>
+          </figure>
+          <div className="actions">
+            <a className="button primary" href="https://rafael-prahastra-portfolio.vercel.app/">Open live website ↗</a>
+            <a className="text-link" href="https://github.com/rafaelprahastra/rafael-portfolio" rel="noopener noreferrer">View portfolio source ↗</a>
+          </div>
+          <p>Original screenshots or public demos for the other projects are not available here yet. Private application data is not published.</p>
+        </div>
       </section>
       <section
         id="about"

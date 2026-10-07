@@ -1054,3 +1054,28 @@ h2 {
     color: black;
   }
 }
+
+/* Peer review: clearer sections and less crowded skill groups. */
+main > .section { border-top: 2px solid var(--line); }
+.section { padding-block: 112px; }
+.section-heading { margin-bottom: 64px; }
+.about-section { border-block: 2px solid var(--line); }
+.skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.skills-grid article { border: 1px solid var(--line); background: var(--white); padding: 28px 32px; }
+.skills-grid li + li { margin-top: 8px; }
+.learning-row { gap: 36px; padding-top: 36px; margin-top: 40px; }
+.project-card + .project-card { padding-top: 48px; border-top: 1px solid var(--line); }
+.live-work { margin-top: 72px; padding-top: 48px; border-top: 2px solid var(--line); }
+.live-work h3 { font-size: 1.75rem; margin-block: 16px; }
+.live-work > p { max-width: 720px; color: var(--muted); }
+.live-work figure { margin-top: 28px; }
+.live-work figcaption { font-size: .875rem; color: var(--muted); margin-top: 12px; }
+.live-work .actions { flex-wrap: wrap; gap: 24px; }
+@media (max-width: 767px) {
+ .section { padding-block: 72px; }
+ .section-heading { margin-bottom: 36px; }
+ .skills-grid { grid-template-columns: 1fr; gap: 20px; }
+ .skills-grid article { padding: 24px; }
+ .learning-row { grid-template-columns: 1fr; gap: 28px; }
+ .live-work { margin-top: 48px; padding-top: 32px; }
+}

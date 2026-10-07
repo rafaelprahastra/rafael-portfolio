@@ -31,7 +31,7 @@ export const projects: Project[] = [
     status: "V1 in use · V2 rewrite in progress",
     evidence: "source-reviewed",
     description:
-      "A Discord marketplace system built around the details that matter: ticket states, transaction records, seller verification, and reputation.",
+      "A Python-based Discord bot for marketplace operations, including tickets, transaction records, seller verification, and reputation.",
     problem:
       "A middleman-assisted marketplace needs more than commands. Buyer and seller selection, fees, ticket status, completion, and reputation must remain consistent when interactions are repeated or fail.",
     solution:
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     status: "Architecture experiment",
     evidence: "profile-reported",
     description:
-      "An experiment in making AI-assisted development more repeatable through reusable instructions, bounded roles, and explicit review boundaries.",
+      "A development workflow experiment using reusable instructions, clearly defined tasks, and separate planning and review steps.",
     problem:
       "Repeated prompts and loosely scoped tasks make AI-assisted changes harder to review. A useful workflow needs durable context and a clear distinction between analysis and implementation.",
     solution:
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     status: "Academic prototype",
     evidence: "profile-reported",
     description:
-      "A rule-based room-planning prototype exploring accessibility, collaboration, privacy, and sustainability in shared spaces.",
+      "An academic web prototype that uses rules to suggest room layouts based on accessibility, collaboration, privacy, and sustainability needs.",
     problem:
       "Room planning involves competing needs. Accessibility, the number of occupants, privacy, and collaboration all affect what makes a layout useful.",
     solution:
