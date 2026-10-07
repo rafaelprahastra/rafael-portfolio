@@ -1080,6 +1080,3 @@ main > .section { border-top: 2px solid var(--line); }
  .live-work { margin-top: 48px; padding-top: 32px; }
 }
 
-.lab-evidence { margin-block: 24px; }
-.lab-evidence summary { cursor: pointer; padding: 16px; border: 1px solid var(--line); }
-.lab-evidence img { max-width: 640px; width: 100%; }
